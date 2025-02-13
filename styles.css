@@ -1,0 +1,47 @@
+@import "./css/header.css";
+@import "./css/footer.css";
+
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --body-bg: #fff;
+
+  --header-bg: #ff4a11;
+  --header-text: #fff;
+
+  --main-bg: ##fff;
+  --main-text: #000;
+
+  --card-bg: #f4fdd2;
+}
+
+body {
+  background: var(--body-bg);
+}
+
+.main-header {
+  background-color: var(--header-bg);
+  color: var(--header-text);
+  padding: 0.75rem;
+}
+
+.main-content {
+  background-color: var(--main-bg);
+  color: var(--main-text);
+  padding: 1rem;
+}
+
+.main-ul-cardlist {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  gap: 10px;
+}
+
+.main-question-card {
+  background: var(--card-bg);
+}

@@ -11,28 +11,42 @@
       <h1>Quiz App</h1>
     </header>
     <main class="main-content"></main>
-        <ul>
-        <li class="question-card" id="question_1">
-          <button class="question_bookmark" id="question_1_bookmark"></button>
-          <p class="question-text" id ="question_1_text"></p>
-          <button class="question_button" id="question_1_button"></button>
-          <p class="question-text" id ="question_1_answer"></p>
-        </li>
-        <li class="question-card" id="question_2"></li>
-        <li class="question-card" id="question_3"></li>
-        <li class="question-card" id="question_4"></li>
-        <li class="question-card" id="question_5"></li>
-        <li class="question-card" id="question_6"></li>
-        <li class="question-card" id="question_7"></li>
-        <li class="question-card" id="question_8"></li>
+        <ul class="main-ul-cardlist">
+          <li class="main-question-card" id="question_1">
+            <button class="main-question-bookmark" id="question_1-bookmark"><img src="./assets/bookmark.svg" alt="Bookmark question"></button>
+            <p class="main-question-text" id ="question_1-text">What is the purpose of the HTML &ltdiv&gt; element?</p>
+            <button type="button" class="main-question-button" id="question_1-button">Show Answer</button>
+            <p class="main-question-text" id ="question_1-answer">It is a container element used to group and style content together.</p>
+            <div class="main-question-tag" id ="question_1-tag1">#html</div>
+            <div class="main-question-tag" id ="question_1-tag2">#css</div>
+            <div class="main-question-tag" id =" question_1-tag3">#webdev</div>
+          </li>
+          <li class="main-question-card" id="question_2">
+            <button class="main-question-bookmark" id="question_2-bookmark"><img src="./assets/bookmark.svg" alt="Bookmark question"></button>
+            <p class="main-question-text" id ="question_2-text">What is the default display property for most HTML elements?</p>
+            <button class="main-question-button" id="question_2-button">Show Answer</button>
+            <p class="main-question-text" id ="question_2-answer">block</p>
+            <div class="main-question-tag" id ="question_2-tag1">#html</div>
+            <div class="main-question-tag" id ="question_2-tag2">#css</div>
+            <div class="main-question-tag" id =" question_2-tag3">#webdev</div>
+          </li>
+          <li class="main-question-card" id="question_3">
+            <button class="main-question-bookmark" id="question_3-bookmark"><img src="./assets/bookmark.svg" alt="Bookmark question"></button>
+            <p class="main-question-text" id ="question_3-text">What is the CSS pseudo-class used to select the first child of an element?</p>
+            <button class="main-question-button" id="question_3-button">Show Answer</button>
+            <p class="main-question-text" id ="question_3-answer">:first-child</p>
+            <div class="main-question-tag" id ="question_3-tag1">#html</div>
+            <div class="main-question-tag" id ="question_3-tag2">#css</div>
+            <div class="main-question-tag" id =" question_3-tag3">#webdev</div>
+          </li>
         </ul>
     </main>
     <footer class="main-footer">
         <nav class="menu-navigation">
             <ul>
-              <li><a href="#"><img src="./assets/house.svg" alt="">Home</a></li>
-              <li><a href="#"><img src="./assets/bookmark.svg" alt="">Bookmarks</a></li>
-              <li><a href="#"><img src="./assets/user-round-cog.svg" alt="">Profile</a></li>
+              <li><a href="./index.html"><img src="./assets/house.svg" alt="Home"></a></li>
+              <li><a href="./bookmarks.html"><img src="./assets/bookmark.svg" alt="Bookmarks"></a></li>
+              <li><a href="./profile.html"><img src="./assets/user-round-cog.svg" alt="Profile"></a></li>
             </ul>
         </nav>
     </footer>
